@@ -1,0 +1,277 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.header{
+    background-color: #506c8c;
+    color: white;
+    font-size: 1.25rem;
+    display: flex;
+}
+.info{
+    margin-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    
+}
+a:link {
+    color: gray;
+    background-color: transparent;
+}
+a:visited{
+    color: white;
+    background-color: transparent;
+}
+.quicklink{
+    border: solid 1px white;
+    color: white;
+    background: transparent;
+    margin-left: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.down{
+    background-color: orange;
+    
+    border:solid 1px white;
+    padding: 0%;
+    
+}
+
+.logo{
+    padding-top: 20px ;
+    width: 100px;
+    height: 100px;
+}
+.header2{
+    
+    padding-left: 200px;
+    display: flex;
+    margin-bottom: 30px;
+    
+
+}
+.name{
+    font-size: 1.25rem;
+    margin-top: 10px;
+    color: #506c8c ;
+    margin-left: 10px;
+    
+}
+.subname{
+    font-size: 2rem;
+    color: #506c8c ;
+}
+.search{
+    margin-left: 450px;
+    margin-top: 40px;
+
+}
+.searchtext{
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    block-size: 2.8rem;
+    width: 300px;
+    border: solid 1px gainsboro;
+}
+.searchbutton{
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    block-size: 3rem;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#506c8c;
+    color: white;
+    border: transparent;
+}
+.categories{
+    background-color: #304c74;
+    
+}
+.subcat{
+    margin-left: 300px;
+}
+.category{
+    color: white;
+    font-size: 1.25rem;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: transparent;
+    border-color: transparent;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    margin-left: -5px;
+    margin-bottom: -8px;
+    
+}
+.category:hover{
+    background-color: orange;
+}
+hr{
+    height:5px;
+    border-width:0;
+    color:orange;
+    background-color:orange;
+    
+}
+.main{
+    display: flex;
+    padding-bottom: 120px;
+}
+.bigimage{
+    width: 900px;
+    height: 450px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.notice{
+    color: #304c74;
+    font-size: 1.25rem;
+    
+}
+.poster{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: gray;
+    background-color: #f9ffd5;
+}
+.pospic{
+    width: 300px;
+    height: 400px;
+    margin-top: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: 10px;
+}
+.admiss{
+    font-size: 1.25rem;
+}
+
+.admiss:visited{
+    color: #304c74;
+}
+.fb{
+    width: 50px;
+    height: 50px;
+}
+.links{
+    margin-left: 550px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+.regad{
+    margin-top: 40px;
+    display: flex;
+    background-size: cover;
+    margin-left: 200px;
+    
+}
+.reg{
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color:#304c74;
+    border-bottom: solid 6px orange
+    
+}
+.ad{
+    color: white;
+    font-size: 1.25rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 221px;
+    padding-right: 221px;
+    background-color:#304c74;
+    border-bottom: solid 6px orange;
+    margin-left: 30px;
+    
+}
+.regadtext{
+    font-size: 1.25rem;
+    color: #304c74;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.dropbtn {
+    color: white;
+    font-size: 1.25rem;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: transparent;
+    border-color: transparent;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+    margin-left: -5px;
+    margin-bottom: -8px;
+}
+.drop{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:fixed;
+    background-color:#304c74;
+    min-width: 160px;
+    z-index: 3;
+    margin-left: -5px;
+    margin-top: 7px;
+    font-size: 1.25rem;
+}
+.line{
+    border-bottom: 1px solid white;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+}
+
+.dropdown-content a:hover {background-color: orange;}
+
+.drop:hover .dropdown-content {display: block;}
+
+.drop:hover .dropbtn {background-color:orange;}
+.lasthr{
+    height:5px;
+    border-width:0;
+    color:orange;
+    background-color:orange;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.courses{
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 200px;
+    
+
+}
+.course1{
+    display:flex;
+
+}
+.course2{
+    display:flex;
+    margin-top: 100px;
+}
+.course{
+    height: 260px;
+    width: 205px;
+    margin-left: 80px;
+    box-shadow: 5px 10px 18px #888888
+    
+}
